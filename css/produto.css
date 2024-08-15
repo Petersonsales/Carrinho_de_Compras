@@ -1,0 +1,17 @@
+.produto-input {
+    width: 24.75rem;
+    height: 3.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--Light-Blue, #1875E8);
+  
+    color: var(--Void, #01080E);
+    font-family: Inter;
+    font-size: 1.3125rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 110%;
+    
+    background: url('./assets/arrow-down.svg') no-repeat right 1rem top 50%;
+  }
+  

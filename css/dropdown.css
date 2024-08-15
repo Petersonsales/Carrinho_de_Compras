@@ -1,0 +1,13 @@
+.dropdown {
+    width: 3.375rem;
+    height: 3.5rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    border: 1px solid var(--Light-Blue, #1875E8);
+    cursor: pointer;
+  }
+  
+  

@@ -1,0 +1,40 @@
+.titulo {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 2.5rem;
+  }
+  
+  .texto-azul {
+    color: #1875E8;
+  }
+  
+  .texto-medio-azul {
+    color: var(--Light-Blue, #1875E8);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 1.65rem */
+  }
+
+  .titulo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .titulo {
+      font-size: 32px;
+    }
+}
+
+  @media screen and (min-width: 360px) {
+    .titulo {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      margin-right: 10em;
+    }
+  }
